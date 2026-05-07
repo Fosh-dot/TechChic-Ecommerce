@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  background: linear-gradient(135deg, #fdf0d5, #f7e7c7);
+
+  color: #003049;
+
+  overflow-x: hidden;
+
+  padding-top: 90px;
+}
+
+/* DARK MODE */
+
+body.dark {
+  background: linear-gradient(135deg, #08141d, #10212f);
+
+  color: white;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1121f;
+  border-radius: 20px;
+}
