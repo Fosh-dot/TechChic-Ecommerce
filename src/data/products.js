@@ -404,7 +404,8 @@ const products = [
     id: 38,
     name: "Home Theater",
     price: 700,
-    description: "",
+    description:
+      " Experience immersive sound with this high-quality home theater system.",
     category: "Home",
     image_url:
       "https://www.gde.ng/public/uploads/images/18-10-2025/68f39ad7e91ba.jpeg",
@@ -414,7 +415,7 @@ const products = [
     id: 39,
     name: "Necklace",
     price: 30,
-    description: "Non tangishable gold",
+    description: "Necklace to add a touch of elegance to your look.",
     category: "Fashion",
     image_url:
       "https://www.byrdie.com/thmb/3Yj7g2ZrAa3vDXGCPXTUcd6t0YU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/449202075_1743258642874140_2572050865349522053_n-edfb8893622648c994b05b664c182750.jpg",
@@ -424,7 +425,8 @@ const products = [
     id: 40,
     name: "Bracelets",
     price: 50,
-    description: "",
+    description:
+      " Beautiful bracelets to add a touch of elegance to your look.",
     category: "Fashion",
     image_url:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiED0ktx6f24ZtZdvJXxBtqyddgIOrcMfTNA&s",
@@ -434,7 +436,7 @@ const products = [
     id: 41,
     name: "Laptop",
     price: 400,
-    description: "",
+    description: " High performance laptop for work and entertainment.",
     category: "Electronics",
     image_url:
       "https://cdn.thewirecutter.com/wp-content/media/2024/07/laptopstopicpage-2048px-3685-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp",
@@ -444,7 +446,7 @@ const products = [
     id: 42,
     name: "Parlour rug",
     price: 200,
-    description: "",
+    description: " Beautiful parlour rug to enhance your home decor.",
     category: "Home",
     image_url:
       "https://pictures-nigeria.jijistatic.net/155096558_NjIwLTYyMC00YzYyNTA0NTk2.webp",
@@ -454,7 +456,8 @@ const products = [
     id: 43,
     name: "Gold Anklet",
     price: 80,
-    description: "",
+    description:
+      " Beautiful gold anklet to add a touch of elegance to your look.",
     category: "Fashion",
     image_url:
       "https://www.aquae-jewels.com/wp-content/uploads/2018/05/356A1496S-2-1024x1024.jpg",
@@ -463,7 +466,7 @@ const products = [
     id: 44,
     name: "Curtains",
     price: 150,
-    description: "",
+    description: " Beautiful curtains to enhance your home decor.",
     category: "Home",
     image_url:
       "https://i.pinimg.com/236x/8c/6a/45/8c6a45409f5aa3c03eb522634113a3bd.jpg",
@@ -473,7 +476,7 @@ const products = [
     id: 45,
     name: "Center Table",
     price: 100,
-    description: "",
+    description: " Elegant center table to enhance your living room decor.",
     category: "Home",
     image_url:
       "https://www.eunicon.com.ng/cdn/shop/products/from-895-99-modern-round-gold-gray-nesting-coffee-table-with-shelf-tempered-glass-top-500x500_500x.jpg?v=1650971539",
@@ -483,7 +486,7 @@ const products = [
     id: 46,
     name: "Ladies Jeans",
     price: 250,
-    description: "",
+    description: " High quality ladies jeans for all occasions.",
     category: "Fashion",
     image_url:
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/96/5766671/1.jpg?9837",
@@ -493,7 +496,7 @@ const products = [
     id: 47,
     name: "Sexy Top",
     price: 100,
-    description: "",
+    description: " Sexy top for ladies",
     category: "Fashion",
     image_url:
       "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/1475682/1.jpg?8649",
@@ -503,14 +506,36 @@ const products = [
     id: 48,
     name: "Power Bank",
     price: 450,
-    description: "",
+    description: " High capacity power bank for all your charging needs.",
     image_url:
       "https://m.media-amazon.com/images/I/7110HiY3I6L._AC_SL1500_.jpg",
     rating: 5.0,
   },
+  {
+    id: 49,
+    name: "Gaming Console",
+    price: 500,
+    description: "Experience immersive gaming with this powerful console.",
+    category: "Electronics",
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTizI39kW8D_mgacezh0LqMiCaimVGeR__EOQ&s",
+    rating: 4.8,
+  },
+  {
+    id: 50,
+    name: "Ironing Board",
+    price: 80,
+    description:
+      "Sturdy ironing board with adjustable height and heat-resistant cover.",
+    category: "Home",
+    image_url:
+      "https://i5.walmartimages.com/seo/Honey-Can-Do-Silver-and-Multi-Oval-Print-Collapsible-Ironing-Board-with-Iron-Rest-and-Shelf_38504150-d17f-4482-a005-bbc67c69e95d.fc6c1b4d01a0035713c581eafbb50d7a.jpeg",
+    rating: 4.3,
+  },
 ];
 
-for (let i = 49; i <= 50; i++) {
+{
+  /*for (let i = 49; i <= 50; i++) {
   products.push({
     id: i,
     name: `Product ${i}`,
@@ -520,6 +545,7 @@ for (let i = 49; i <= 50; i++) {
     image_url: `https://source.unsplash.com/400x400/?product&sig=${i}`,
     rating: (Math.random() * 2 + 3).toFixed(1),
   });
+*/
 }
 
 export default products;
