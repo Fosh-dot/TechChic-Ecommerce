@@ -47,9 +47,11 @@
 
 /* MOBILE */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .wishlistPage {
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    padding: 14px;
   }
 
   .wishlistPage h1 {
