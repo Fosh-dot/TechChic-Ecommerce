@@ -38,7 +38,7 @@
 
 /* GRID */
 
-.grid {
+.products-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 18px;
@@ -49,9 +49,10 @@
 
 @media screen and (max-width: 768px) {
   .wishlistPage {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-    padding: 14px;
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
   }
 
   .wishlistPage h1 {

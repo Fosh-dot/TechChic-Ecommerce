@@ -83,12 +83,6 @@
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
   outline: none;
 }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 18px;
-  padding: 30px;
-}
 
 .pagination {
   display: flex;
@@ -120,6 +114,12 @@
 .pagination span {
   font-weight: 600;
   color: #003049;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  padding: 30px;
 }
 @media screen and (max-width: 768px) {
   .grid {
