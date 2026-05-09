@@ -47,7 +47,8 @@ function ProductCard({ product }) {
       <div className="cardContent">
         <h3>{product.name}</h3>
 
-        <p>${product.price}</p>
+        <p className="price">${product.price}</p>
+        <div className="rating">⭐⭐⭐⭐ {product.rating}</div>
 
         <div className="actions">
           <Link to={`/product/${product.id}`}>View</Link>
