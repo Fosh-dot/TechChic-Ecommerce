@@ -9,9 +9,7 @@ function Footer() {
         <div>
           <h2>TECHCHIC</h2>
 
-          <p>
-            Luxury shopping experience built with modern React architecture.
-          </p>
+          <p>Luxury shopping experience built with Love.</p>
         </div>
 
         <div>

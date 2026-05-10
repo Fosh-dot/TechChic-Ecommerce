@@ -35,27 +35,23 @@ function ProductCard({ product }) {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
     >
-      {/* ❤️ Favorite */}
-      <button className="favoriteBtn" onClick={() => toggleFavorite(product)}>
+      <div className="favouriteBtn" onClick={() => toggleFavorite(product)}>
         {isFavorite ? <FaHeart /> : <FaRegHeart />}
-      </button>
+      </div>
 
-      {/* 🖼 Image */}
       <img src={product.image_url} alt={product.name} />
 
-      {/* 📦 Content */}
-      <div className="cardContent">
+      <div className="card-info">
         <h3>{product.name}</h3>
 
-        <p className="price">${product.price}</p>
-        <div className="rating">⭐⭐⭐⭐ {product.rating}</div>
+        <p className="price">₦{product.price}</p>
+
+        <div className="rating">⭐ {product.rating}</div>
 
         <div className="actions">
           <Link to={`/product/${product.id}`}>View</Link>
 
-          <button onClick={handleAddToCart} className={added ? "addedBtn" : ""}>
-            {added ? "Added ✓" : "Add to Cart"}
-          </button>
+          <button onClick={() => addToCart(product)}>Add</button>
         </div>
       </div>
     </motion.div>

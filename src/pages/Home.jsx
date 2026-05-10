@@ -109,7 +109,7 @@ function Home() {
       </div>
 
       {/* PRODUCTS */}
-      <div className="grid">
+      <div className="product-grid">
         {currentProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

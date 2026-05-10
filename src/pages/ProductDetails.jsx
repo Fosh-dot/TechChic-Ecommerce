@@ -53,7 +53,7 @@ function ProductDetails() {
 
           <h1>{product.name}</h1>
 
-          <div className="rating">⭐ {product.rating}</div>
+          <div className="rating">⭐{product.rating}</div>
 
           <p className="description">{product.description}</p>
 

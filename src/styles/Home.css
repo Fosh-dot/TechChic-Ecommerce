@@ -1,6 +1,5 @@
 .home {
-  min-height: 100vh;
-  padding: 30px;
+  width: 100%;
 }
 
 /* HERO */
@@ -16,15 +15,12 @@
 
   background-size: cover;
   background-position: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
-/* HERO CONTENT */
 
 .heroContent {
   text-align: center;
@@ -115,16 +111,18 @@
   font-weight: 600;
   color: #003049;
 }
-.grid {
+.product-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 18px;
-  padding: 30px;
+  gap: 4px;
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
-  .grid {
+  .product-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-    padding: 14px;
+    gap: 4px;
+    padding: 4px;
   }
 }
