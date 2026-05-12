@@ -18,16 +18,6 @@ function ProductCard({ product }) {
   // ✅ Added state
   const [added, setAdded] = useState(false);
 
-  const handleAddToCart = () => {
-    addToCart(product);
-
-    setAdded(true);
-
-    setTimeout(() => {
-      setAdded(false);
-    }, 1500);
-  };
-
   return (
     <motion.div
       className="card"
@@ -50,8 +40,19 @@ function ProductCard({ product }) {
 
         <div className="actions">
           <Link to={`/product/${product.id}`}>View</Link>
+          <button
+            onClick={() => {
+              addToCart(product);
 
-          <button onClick={() => addToCart(product)}>Add</button>
+              setAdded(true);
+
+              setTimeout(() => {
+                setAdded(false);
+              }, 1500);
+            }}
+          >
+            {added ? "Added" : "Add"}
+          </button>
         </div>
       </div>
     </motion.div>
