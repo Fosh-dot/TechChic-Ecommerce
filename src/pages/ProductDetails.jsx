@@ -52,7 +52,7 @@ function ProductDetails() {
 
           <p className="description">{product.description}</p>
 
-          <h2>${totalPrice.toFixed(2)}</h2>
+          <h2>₦{totalPrice.toFixed(2)}</h2>
 
           {/* QUANTITY */}
 

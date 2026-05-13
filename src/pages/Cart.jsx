@@ -25,7 +25,7 @@ function Cart() {
             <div>
               <h4>{item.name}</h4>
               <p>
-                ${item.price} x {item.quantity}
+                ₦{item.price} x {item.quantity}
               </p>
             </div>
 
@@ -34,7 +34,7 @@ function Cart() {
         ))
       )}
 
-      <h3>Total: ${total.toFixed(2)}</h3>
+      <h3>Total: ₦{total.toFixed(2)}</h3>
     </div>
   );
 }
