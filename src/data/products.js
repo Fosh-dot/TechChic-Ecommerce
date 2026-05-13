@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Luxury Leather Bag",
-    price: 120,
+    price: 15000,
     description: "Premium handcrafted leather bag.",
     category: "Fashion",
     image_url:
@@ -12,7 +12,7 @@ const products = [
   {
     id: 2,
     name: "Wireless Headphones",
-    price: 200,
+    price: 6000,
     description: "Noise cancelling headphones.",
     category: "Electronics",
     image_url:
@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: "Smart Phone",
-    price: 150,
+    price: 90000,
     description: "Best in class smartphone with great features.",
     category: "Electronics",
     image_url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
@@ -31,7 +31,7 @@ const products = [
   {
     id: 4,
     name: "Bed Stand Set",
-    price: 500,
+    price: 50000,
     description: "Elegant bed stand set for your bedroom.",
     category: "Home",
     image_url: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
@@ -40,7 +40,7 @@ const products = [
   {
     id: 5,
     name: "Sneakers",
-    price: 90,
+    price: 19000,
     description: "Trendy everyday sneakers.",
     category: "Fashion",
     image_url:
@@ -50,7 +50,7 @@ const products = [
   {
     id: 6,
     name: "Summer dress",
-    price: 150,
+    price: 15000,
     description: "Best for summer.",
     category: "Fashion",
     rating: 5.0,
@@ -60,7 +60,7 @@ const products = [
   {
     id: 7,
     name: "Stylish Sofa Chair",
-    price: 49.997896,
+    price: 30000,
     rating: 3,
     category: "Home",
     reviews: 12,
@@ -71,7 +71,7 @@ const products = [
   {
     id: 8,
     name: "Non-Stick Cookware Set",
-    price: 89.99,
+    price: 25000,
     rating: 4.5,
     category: "Kitchen",
     reviews: 89,
@@ -85,7 +85,7 @@ const products = [
   {
     id: 9,
     name: "Cozy Blanket",
-    price: 90,
+    price: 10000,
     rating: 4,
     category: "Home",
     reviews: 200,
@@ -98,7 +98,7 @@ const products = [
   {
     id: 10,
     name: "Garden Trowel Set",
-    price: 24.99,
+    price: 3000,
     rating: 4.5,
     category: "Garden",
     reviews: 78,
@@ -112,7 +112,7 @@ const products = [
   {
     id: 11,
     name: "Raised Garden Bed",
-    price: 1000,
+    price: 5000,
     rating: 4,
     category: "Garden",
     reviews: 45,
@@ -127,7 +127,7 @@ const products = [
   {
     id: 12,
     name: "Ballpoint Pen Set",
-    price: 12.99,
+    price: 2500,
     rating: 4.2,
     category: "Stationery",
     reviews: 312,
@@ -140,7 +140,7 @@ const products = [
   {
     id: 13,
     name: "Female Denims Jacket",
-    price: 150,
+    price: 10000,
     rating: 4.7,
     category: "Clothing",
     reviews: 156,
@@ -154,7 +154,7 @@ const products = [
   {
     id: 14,
     name: "Classic Vinatge",
-    price: 180,
+    price: 18000,
     rating: 4.7,
     category: "Clothing",
     reviews: 156,
@@ -168,7 +168,7 @@ const products = [
   {
     id: 15,
     name: "Floral Summer Dress",
-    price: 44.99,
+    price: 12000,
     rating: 4.3,
     category: "Apparel",
     reviews: 203,
@@ -181,7 +181,7 @@ const products = [
   {
     id: 16,
     name: "Plain white tee",
-    price: 44.99,
+    price: 8000,
     rating: 4.3,
     category: "Fashion ",
     reviews: 213,
@@ -193,7 +193,7 @@ const products = [
   {
     id: 17,
     name: "Sports Canvas",
-    price: 120,
+    price: 22000,
     description: "High quality sports canvas for all your athletic needs.",
     category: "Fashion",
     image_url:
@@ -203,7 +203,7 @@ const products = [
   {
     id: 18,
     name: "Modern Chair",
-    price: 600,
+    price: 60000,
     description: "High quality sports canvas for all your athletic needs.",
     category: "Fashion",
     image_url:
@@ -213,7 +213,7 @@ const products = [
   {
     id: 19,
     name: "Elegant Lamp",
-    price: 80,
+    price: 8000,
     description: "Elegant lamp to brighten up your space.",
     category: "Home",
     image_url:
@@ -223,7 +223,7 @@ const products = [
   {
     id: 20,
     name: "Apple Watch",
-    price: 250,
+    price: 25000,
     description: "Stay connected with this stylish smart watch.",
     category: "Electronics",
     image_url:
@@ -233,7 +233,7 @@ const products = [
   {
     id: 21,
     name: "Designer Sunglasses",
-    price: 150,
+    price: 7500,
     description: "Protect your eyes in style with these designer sunglasses.",
     category: "Fashion",
     image_url:
@@ -243,7 +243,7 @@ const products = [
   {
     id: 22,
     name: "Bluetooth Speaker",
-    price: 120,
+    price: 12000,
     description: "Portable Bluetooth speaker with excellent sound quality.",
     category: "Electronics",
     image_url:
@@ -253,7 +253,7 @@ const products = [
   {
     id: 23,
     name: "Coffee Maker",
-    price: 80,
+    price: 80000,
     description:
       "Brew the perfect cup of coffee with this easy-to-use coffee maker.",
     category: "Home",
@@ -263,7 +263,7 @@ const products = [
   {
     id: 24,
     name: "Fitness Tracker",
-    price: 100,
+    price: 10000,
     description: "Track your fitness goals with this sleek fitness tracker.",
     category: "Electronics",
     image_url:
@@ -273,7 +273,7 @@ const products = [
   {
     id: 25,
     name: "Leather Wallet",
-    price: 60,
+    price: 6000,
     description: "Classic leather wallet with multiple compartments.",
     category: "Fashion",
     image_url:
@@ -283,7 +283,7 @@ const products = [
   {
     id: 26,
     name: "Smart TV",
-    price: 400,
+    price: 140000,
     description: "Enjoy your favorite shows on this high-definition smart TV.",
     category: "Electronics",
     image_url:
@@ -293,7 +293,7 @@ const products = [
   {
     id: 27,
     name: "Stylish Backpack",
-    price: 70,
+    price: 7000,
     description: "Durable and stylish backpack for everyday use.",
     category: "Fashion",
     image_url:
@@ -303,7 +303,7 @@ const products = [
   {
     id: 28,
     name: "Wireless Earbuds",
-    price: 80,
+    price: 5000,
     description: "Compact wireless earbuds with great sound quality.",
     category: "Electronics",
     image_url:
@@ -313,7 +313,7 @@ const products = [
   {
     id: 29,
     name: "Standing Fan",
-    price: 60,
+    price: 9000,
     description: "Keep cool with this powerful standing fan.",
     category: "Home",
     image_url:
@@ -323,7 +323,7 @@ const products = [
   {
     id: 30,
     name: "Yoga Mat",
-    price: 40,
+    price: 4000,
     description: "Non-slip yoga mat for all your fitness needs.",
     category: "Fitness",
     image_url:
@@ -333,7 +333,7 @@ const products = [
   {
     id: 31,
     name: "Electric Kettle",
-    price: 50,
+    price: 30000,
     description: "Boil water quickly with this efficient electric kettle.",
     category: "Home",
     image_url:
@@ -343,7 +343,7 @@ const products = [
   {
     id: 32,
     name: "Gaming Mouse",
-    price: 70,
+    price: 8000,
     description: "Precision gaming mouse with customizable buttons.",
     category: "Electronics",
     image_url:
@@ -353,7 +353,7 @@ const products = [
   {
     id: 33,
     name: "Designers Heels",
-    price: 30,
+    price: 40000,
     description: "Elegant designer heels for special occasions.",
     category: "Fashion",
     image_url:
@@ -363,7 +363,7 @@ const products = [
   {
     id: 34,
     name: "Portable Charger",
-    price: 25,
+    price: 3500,
     description: "Compact portable charger for on-the-go power.",
     category: "Electronics",
     image_url:
@@ -373,7 +373,7 @@ const products = [
   {
     id: 35,
     name: "Air Purifier",
-    price: 150,
+    price: 15000,
     description: "Improve air quality with this efficient air purifier.",
     category: "Home",
     image_url:
@@ -383,7 +383,7 @@ const products = [
   {
     id: 36,
     name: "Designer Tote Bag",
-    price: 200,
+    price: 20000,
     description: "Spacious designer tote bag for everyday use.",
     category: "Fashion",
     image_url:
@@ -393,7 +393,7 @@ const products = [
   {
     id: 37,
     name: "Iphone 16 pouch case",
-    price: 100,
+    price: 4500,
     description: "Best for your phone protection",
     category: "Electronics",
     image_url:
@@ -403,7 +403,7 @@ const products = [
   {
     id: 38,
     name: "Home Theater",
-    price: 700,
+    price: 70000,
     description:
       " Experience immersive sound with this high-quality home theater system.",
     category: "Home",
@@ -414,7 +414,7 @@ const products = [
   {
     id: 39,
     name: "Necklace",
-    price: 30,
+    price: 3000,
     description: "Necklace to add a touch of elegance to your look.",
     category: "Fashion",
     image_url:
@@ -424,7 +424,7 @@ const products = [
   {
     id: 40,
     name: "Bracelets",
-    price: 50,
+    price: 5000,
     description:
       " Beautiful bracelets to add a touch of elegance to your look.",
     category: "Fashion",
@@ -435,7 +435,7 @@ const products = [
   {
     id: 41,
     name: "Laptop",
-    price: 400,
+    price: 400000,
     description: " High performance laptop for work and entertainment.",
     category: "Electronics",
     image_url:
@@ -445,7 +445,7 @@ const products = [
   {
     id: 42,
     name: "Parlour rug",
-    price: 200,
+    price: 20000,
     description: " Beautiful parlour rug to enhance your home decor.",
     category: "Home",
     image_url:
@@ -455,7 +455,7 @@ const products = [
   {
     id: 43,
     name: "Gold Anklet",
-    price: 80,
+    price: 8000,
     description:
       " Beautiful gold anklet to add a touch of elegance to your look.",
     category: "Fashion",
@@ -465,7 +465,7 @@ const products = [
   {
     id: 44,
     name: "Curtains",
-    price: 150,
+    price: 10500,
     description: " Beautiful curtains to enhance your home decor.",
     category: "Home",
     image_url:
@@ -475,7 +475,7 @@ const products = [
   {
     id: 45,
     name: "Center Table",
-    price: 100,
+    price: 10000,
     description: " Elegant center table to enhance your living room decor.",
     category: "Home",
     image_url:
@@ -485,7 +485,7 @@ const products = [
   {
     id: 46,
     name: "Ladies Jeans",
-    price: 250,
+    price: 9500,
     description: " High quality ladies jeans for all occasions.",
     category: "Fashion",
     image_url:
@@ -495,7 +495,7 @@ const products = [
   {
     id: 47,
     name: "Sexy Top",
-    price: 100,
+    price: 7000,
     description: " Sexy top for ladies",
     category: "Fashion",
     image_url:
@@ -505,7 +505,7 @@ const products = [
   {
     id: 48,
     name: "Power Bank",
-    price: 450,
+    price: 32000,
     description: " High capacity power bank for all your charging needs.",
     image_url:
       "https://m.media-amazon.com/images/I/7110HiY3I6L._AC_SL1500_.jpg",
@@ -514,7 +514,7 @@ const products = [
   {
     id: 49,
     name: "Gaming Console",
-    price: 500,
+    price: 8000,
     description: "Experience immersive gaming with this powerful console.",
     category: "Electronics",
     image_url:
@@ -524,7 +524,7 @@ const products = [
   {
     id: 50,
     name: "Ironing Board",
-    price: 80,
+    price: 14000,
     description:
       "Sturdy ironing board with adjustable height and heat-resistant cover.",
     category: "Home",

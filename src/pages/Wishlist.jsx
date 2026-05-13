@@ -1,7 +1,5 @@
 import { useCart } from "../context/CartContext";
-
 import ProductCard from "../components/ProductCard";
-
 import "../styles/Wishlist.css";
 
 function Wishlist() {

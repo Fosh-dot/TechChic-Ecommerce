@@ -1,13 +1,8 @@
 import { useParams } from "react-router-dom";
-
 import { useState } from "react";
-
 import products from "../data/products";
-
 import ProductCard from "../components/ProductCard";
-
 import { useCart } from "../context/CartContext";
-
 import "../styles/ProductDetails.css";
 
 function ProductDetails() {

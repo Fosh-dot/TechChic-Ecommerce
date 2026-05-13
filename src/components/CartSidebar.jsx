@@ -40,7 +40,7 @@ function CartSidebar() {
                 <div>
                   <h4>{item.name}</h4>
                   <p>
-                    {item.quantity} × ${item.price}
+                    {item.quantity} × ₦{item.price}
                   </p>
                 </div>
 
@@ -51,7 +51,7 @@ function CartSidebar() {
         </div>
 
         <div className="bottom">
-          <h3>Total: ${total.toFixed(2)}</h3>
+          <h3>Total: ₦{total.toFixed(2)}</h3>
 
           <button className="checkoutBtn">Checkout</button>
         </div>
