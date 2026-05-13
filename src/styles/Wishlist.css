@@ -50,8 +50,8 @@
 @media screen and (max-width: 768px) {
   .wishlistPage {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 15px;
-    padding: 15px;
+    gap: 14px;
+    padding: 14px;
   }
 
   .wishlistPage h1 {

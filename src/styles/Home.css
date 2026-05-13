@@ -121,7 +121,6 @@
 }
 @media screen and (max-width: 768px) {
   .products-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     padding: 8px;
