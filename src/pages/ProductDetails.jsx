@@ -11,6 +11,7 @@ function ProductDetails() {
   const product = products.find((item) => item.id === Number(id));
 
   const { addToCart } = useCart();
+  const [added, setAdded] = useState(false);
 
   const [quantity, setQuantity] = useState(1);
 
@@ -68,8 +69,17 @@ function ProductDetails() {
 
           {/* BUTTON */}
 
-          <button className="detailsBtn" onClick={handleAddToCart}>
-            Add to Cart
+          <button
+            className="detailsBtn"
+            onClick={() => {
+              addToCart(product);
+              setAdded(true);
+              setTimeout(() => {
+                setAdded(false);
+              }, 1500);
+            }}
+          >
+            {added ? "Added" : "Add to Cart"}
           </button>
         </div>
       </div>
