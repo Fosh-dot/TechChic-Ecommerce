@@ -138,13 +138,42 @@
 }
 
 /* MOBILE */
+/* MOBILE RESPONSIVE */
 
-@media (max-width: 768px) {
-  .detailsPage {
-    padding: 20px;
+@media screen and (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+
+    padding: 16px;
+
+    gap: 20px;
   }
 
-  .infoSection h1 {
-    font-size: 2.2rem;
+  .product-details img {
+    width: 100%;
+
+    max-width: 100%;
+
+    border-radius: 12px;
+  }
+
+  .details-content {
+    width: 100%;
+  }
+
+  .details-content h2 {
+    font-size: 24px;
+  }
+
+  .details-content p {
+    font-size: 15px;
+  }
+
+  .details-content button {
+    width: 100%;
+
+    padding: 14px;
+
+    font-size: 16px;
   }
 }
