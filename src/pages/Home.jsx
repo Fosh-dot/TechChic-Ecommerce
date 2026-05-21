@@ -57,7 +57,7 @@ function Home() {
 
   const currentProducts = filteredProducts.slice(
     firstProductIndex,
-    lastProductIndex
+    lastProductIndex,
   );
 
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
@@ -68,13 +68,10 @@ function Home() {
       <section className="hero">
         <div className="heroContent">
           <h1>Luxury Shopping Experience</h1>
-
           <p>Discover premium fashion, electronics and lifestyle products.</p>
-
           <button>Shop Now</button>
         </div>
       </section>
-
       {/* CONTROLS */}
       <div className="controls">
         {/* SEARCH */}
@@ -84,37 +81,27 @@ function Home() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-
         {/* CATEGORY */}
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
           <option>All</option>
-
           <option>Fashion</option>
-
           <option>Electronics</option>
-
           <option>Home</option>
         </select>
-
         {/* SORT */}
         <select value={sort} onChange={(e) => setSort(e.target.value)}>
           <option value="">Sort</option>
-
           <option value="low">Price: Low to High</option>
-
           <option value="high">Price: High to Low</option>
-
           <option value="rating">Top Rated</option>
         </select>
       </div>
-
       {/* PRODUCTS */}
-      <div className="products-grid">
+      <div className="product-grid">
         {currentProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
-
       {/* PAGINATION */}
       <div className="pagination">
         <button

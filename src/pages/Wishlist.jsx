@@ -16,7 +16,7 @@ function Wishlist() {
           <p>Start adding products you love.</p>
         </div>
       ) : (
-        <div className="grid">
+        <div className="wishlist-grid">
           {favorites.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

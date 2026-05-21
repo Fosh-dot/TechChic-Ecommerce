@@ -38,23 +38,22 @@
 
 /* GRID */
 
-.grid {
+.wishlist-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 18px;
+  gap: 12px;
   padding: 30px;
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
-  .wishlistPage {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 14px;
-    padding: 14px;
+  .wishlist-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
-  .wishlistPage h1 {
+  .wishlist-grid h1 {
     font-size: 2rem;
   }
 }

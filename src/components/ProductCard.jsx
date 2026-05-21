@@ -43,9 +43,7 @@ function ProductCard({ product }) {
           <button
             onClick={() => {
               addToCart(product);
-
               setAdded(true);
-
               setTimeout(() => {
                 setAdded(false);
               }, 1500);
@@ -58,5 +56,4 @@ function ProductCard({ product }) {
     </motion.div>
   );
 }
-
 export default ProductCard;

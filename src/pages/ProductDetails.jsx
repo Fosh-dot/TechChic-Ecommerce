@@ -63,10 +63,8 @@ function ProductDetails() {
             </button>
 
             <span>{quantity}</span>
-
             <button onClick={() => setQuantity(quantity + 1)}>+</button>
           </div>
-
           {/* BUTTON */}
 
           <button
@@ -89,7 +87,7 @@ function ProductDetails() {
       <section className="relatedSection">
         <h2>Related Products</h2>
 
-        <div className="grid">
+        <div className="related-grid">
           {relatedProducts.map((item) => (
             <ProductCard key={item.id} product={item} />
           ))}

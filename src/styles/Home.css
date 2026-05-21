@@ -10,7 +10,8 @@
   overflow: hidden;
   margin-bottom: 50px;
 
-  background: linear-gradient(rgba(0, 48, 73, 0.65), rgba(0, 48, 73, 0.65)),
+  background:
+    linear-gradient(rgba(0, 48, 73, 0.65), rgba(0, 48, 73, 0.65)),
     url("https://images.unsplash.com/photo-1441986300917-64674bd600d8");
 
   background-size: cover;
@@ -111,18 +112,18 @@
   font-weight: 600;
   color: #003049;
 }
-.products-grid {
+.product-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 4px;
+  gap: 2px;
   width: 100%;
   padding: 4px;
   box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
-  .products-grid {
+  .product-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    padding: 8px;
+    gap: 2px;
+    padding: 4px;
   }
 }
